@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+#canvas
+{
+    border: 1px solid black;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+#colors button
+{
+    width: 40px;
+	height: 40px;
+	border-radius: 100%;
+    margin-top: 0px;
+    border-width: 2px;
+    border-color: black;
+}
+#canvas {
+    background-color: white;
+    border-width: 2px;
+}
+#black 
+{
+    background: black;
+    cursor: pointer;
+}
+#pink 
+{
+    background: rgb(255, 107, 169);
+    cursor: pointer;
+}
+#red
+{
+    background: rgb(245, 49, 91);
+    cursor: pointer;
+}
+#green 
+{ 
+    background: rgb(132, 247, 56);
+    cursor: pointer;
+}
+#blue 
+{
+    background:rgb(47, 101, 250);
+    cursor: pointer;
+}
+#orange 
+{
+    background:rgb(245, 153, 49);
+    cursor: pointer;
+}
+.button {
+    border-width: 2px;
+    border-color: black;
+    width: 505px;
+    height: 60px;
+    background-color: rgb(38, 199, 199);
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background:
+    -webkit-linear-gradient(315deg, hsla(338.33, 97.06%, 43.22%, 1) 0%, hsla(338.33, 97.06%, 43.22%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(49.48, 96.24%, 47.16%, 1) 10%, hsla(49.48, 96.24%, 47.16%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(356.84, 99.13%, 45.5%, 1) 15%, hsla(356.84, 99.13%, 45.5%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(38.24, 94.67%, 42.95%, 1) 100%, hsla(38.24, 94.67%, 42.95%, 0) 70%);
+    background:
+    linear-gradient(135deg, hsla(338.33, 97.06%, 43.22%, 1) 0%, hsla(338.33, 97.06%, 43.22%, 0) 70%),
+    linear-gradient(25deg, hsla(49.48, 96.24%, 47.16%, 1) 10%, hsla(49.48, 96.24%, 47.16%, 0) 80%),
+    linear-gradient(315deg, hsla(356.84, 99.13%, 45.5%, 1) 15%, hsla(356.84, 99.13%, 45.5%, 0) 80%),
+    linear-gradient(245deg, hsla(38.24, 94.67%, 42.95%, 1) 100%, hsla(38.24, 94.67%, 42.95%, 0) 70%);
+    height: 100vh;
+}
+#position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#colors {
+    display: flex;
+    justify-content: space-between;
+}
+.button:hover {
+    transition-property: background-color, font-size, width, height;
+    transition-duration: 0.3s;
+    font-size: 25px;
+    background-color: rgb(52, 241, 255);
+    width: 508px;
+    height: 63px;
+}
+#red:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#green:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#blue:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#black:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#orange:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#pink:hover {
+    transition-property: border-radius, width, height;
+    transition-duration: 0.3s;
+    width: 55px;
+    height: 55px;
+    border-radius: 15%;
+    position: relative;
+}
+#colors:hover {
+    transition-property: margin-bottom;
+    transition-duration: 0.3s;
+    margin-bottom: 20px;
+}

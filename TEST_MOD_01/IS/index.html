@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PAINT</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="position">
+    <div id="colors">
+        <button id="black" onclick='changeColor("black")' ontouchstart='changeColor("black")'></button>
+        <button id="red" onclick='changeColor("red")' ontouchstart='changeColor("red")'></button>
+        <button id="green" onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+        <button id="blue" onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+        <button id="orange" onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+        <button id="pink" onclick='changeColor("pink")' ontouchstart='changeColor("pink")'></button>
+    </div>
+    <canvas id="canvas" width='500' height='350'></canvas>
+    <div>
+        <button class="button" onclick='clearCanvas()'>CLEAR</button>
+    </div>
+    </div>  
+</body>
+</html>
